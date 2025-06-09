@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tyler McCoy • Workshops that Unlock Clarity</title>
+
+  <!-- —— EXISTING STYLES (unchanged) —— -->
+  <style>
+    /* … all of your original CSS exactly as before … */
+    /* —— only two tiny additions at the very end —— */
+    .photo-strip   {display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin:4rem 0}
+    .photo-strip img{width:320px;height:210px;object-fit:cover;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.15)}
+  </style>
+</head>
+
+<body>
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <div class="logo">Tyler McCoy</div>
+      <a href="#final-cta" class="nav-cta">Book a Discovery Call</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>Workshops that Turn Chaos<br />into Clear Next Steps</h1>
+        <p class="hero-subtitle">
+          Remote-first sessions (with optional on-site intensives) for<br />
+          health-tech innovators, SaaS design leaders, and people-ops
+          teams who need alignment—yesterday.
+        </p>
+        <a href="#final-cta" class="hero-cta">Let’s Talk Results</a>
+        <div class="trust-indicator">
+          Trusted by product & culture leaders at growth-stage startups and
+          Fortune 100 innovators alike
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition -->
+  <section class="value-prop fade-in">
+    <div class="container">
+      <h2 class="section-title">Four Outcomes You’ll Feel — and Measure</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Product Clarity</h3>
+          <p>No more “What problem are we solving?”—leave with a sharp
+             value-prop the whole team can recite.</p>
+        </div>
+        <div class="value-card">
+          <h3>Team Alignment</h3>
+          <p>Get engineering, design, and biz-dev rowing in the same direction
+             without endless Slack threads.</p>
+        </div>
+        <div class="value-card">
+          <h3>Momentum & Focus</h3>
+          <p>Lock in a 90-day roadmap with owners, OKRs, and quick wins that
+             actually happen.</p>
+        </div>
+        <div class="value-card">
+          <h3>Culture Lift</h3>
+          <p>Re-energize humans (not just KPIs) with rituals that stick—perfect
+             for hybrid and retreat settings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real-Life Photos -->
+  <div class="photo-strip fade-in">
+    <!-- replace with your own images -->
+    <img src="tyler.jpg"         alt="Tyler speaking during a workshop" />
+    <img src="workshop1.jpg"     alt="Team collaborating with sticky notes" />
+    <img src="workshop2.jpg"     alt="Health-tech leadership group prototyping" />
+    <img src="workshop3.jpg"     alt="Remote participants on a large screen, hybrid setup" />
+  </div>
+
+  <!-- Methodology -->
+  <section class="methodology fade-in">
+    <div class="container">
+      <h2 class="section-title">How We’ll Get You There</h2>
+      <div class="method-process">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <h3>Listen & Map</h3>
+          <p>Quick discovery call + async survey so every voice is heard
+             before we walk in the (virtual) door.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <h3>Sprint the Issues</h3>
+          <p>Facilitated exercises (Design-Sprint, Lightning Decision Jam,
+             Journey-Mapping) tailored to your context.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <h3>Lock the Plan</h3>
+          <p>Documented roadmap, owners, success metrics, and a
+             30/60/90-day check-in schedule.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:3rem">
+        <a href="#final-cta" class="hero-cta">Is This What You Need?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilitator -->
+  <section class="facilitator fade-in">
+    <div class="container">
+      <div class="facilitator-content">
+        <div class="facilitator-image">
+          <img src="tyler.jpg" alt="Tyler McCoy headshot"
+               style="width:100%;height:100%;object-fit:cover;border-radius:50%" />
+        </div>
+        <div class="facilitator-bio">
+          <h2>Hey there — I’m Tyler</h2>
+          <h3>Facilitator • UX Strategist • Former Yoga Teacher</h3>
+          <div class="bio-points">
+            <p><strong>9+ yrs</strong> leading UX & product strategy for SaaS
+               and health-tech scale-ups.</p>
+            <p><strong>20 yrs</strong> teaching mindfulness—so yes, I
+               can keep a room breathing when the stakes feel sky-high.</p>
+            <p>Hybrid-ready: 60 % remote, 40 % high-impact on-site
+               retreats from Austin → Amsterdam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Workshop Details -->
+  <section class="workshop-details fade-in">
+    <div class="container">
+      <h2 class="section-title">Formats & Investment</h2>
+      <div class="details-grid">
+        <div class="detail-item">
+          <h4>Remote Boost</h4>
+          <p>3-hour Zoom sprint for focused decisions without travel.</p>
+        </div>
+        <div class="detail-item">
+          <h4>Hybrid Intensive</h4>
+          <p>Half-day in-person + remote board for distributed teams.</p>
+        </div>
+        <div class="detail-item">
+          <h4>Leadership Off-Site</h4>
+          <p>One-day retreat, max 12 execs. Includes venue scouting &
+             wellness-friendly agenda.</p>
+        </div>
+        <div class="detail-item">
+          <h4>Investment</h4>
+          <p>From $5 k remote · $12 k on-site.<br />
+             Flat fee, clear scope, no surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta fade-in" id="final-cta">
+    <div class="container">
+      <h2 class="section-title" style="color:#fff;margin-bottom:1rem">
+        Let’s See If We’re a Fit
+      </h2>
+      <p style="font-size:1.2rem;margin-bottom:2rem;opacity:.9">
+        Grab a 20-min discovery call—no hard sell, just clarity.
+      </p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/d/cwrn-6ms-y2s/strategy-call"
+           target="_blank" class="cta-primary">Book My Call</a>
+        <a href="#" class="cta-secondary" onclick="downloadOverview()">
+          Download Outline (PDF)
+        </a>
+      </div>
+      <p style="margin-top:2rem;opacity:.7;font-size:.9rem">
+        You bring the challenge, I’ll bring the sharpies.
+      </p>
+    </div>
+  </section>
+
+  <!-- —— EXISTING JS (unchanged) —— -->
+  <script>
+    /* … all your original JS exactly as before … */
+  </script>
+</body>
+</html>
